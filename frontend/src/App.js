@@ -33,7 +33,7 @@ function login(e) {
     password: document.getElementById("input-pass").value,
   };
   axios
-    .post("localhost:3000/login", request)
+    .post("http://localhost:3000/login", request)
     .then((resp) => {
       alert(resp.data.message);
     })
