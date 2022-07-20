@@ -1,0 +1,16 @@
+*{
+  padding: 0px;;
+  margin:0px
+}
+.App {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.App form {
+  margin-top: 20px;
+}
+
+
+
